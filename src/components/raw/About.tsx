@@ -4,7 +4,7 @@ import img from '/dushyant.png'
 
 type AboutProps = {};
 
-const About: FC<AboutProps> = (props) => {
+const About: FC<AboutProps> = () => {
     return (
         <div className="flex px-10 py-12 w-full self-center justify-between items-center">
             <motion.div 

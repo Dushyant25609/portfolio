@@ -84,7 +84,7 @@ const reviews = [
     );
   };
 
-  const Project: FC<ProjectProps> = (props) => {
+  const Project: FC<ProjectProps> = () => {
     return (
         <div className="relative flex w-full flex-col items-center justify-center overflow-x-hidden">
             <Marquee pauseOnHover className="w-full [--duration:10s] overflow-hidden">

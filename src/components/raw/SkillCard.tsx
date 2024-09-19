@@ -2,7 +2,7 @@ import { FC } from "react";
 
 type SkillCardProps = {};
 
-const SkillCard: FC<SkillCardProps> = (props) => {
+const SkillCard: FC<SkillCardProps> = () => {
     const para = "text-blue-100 text-xs md:text-sm lg:text-base xl:text-2xl overflow-x-hidden";
     const heading = "text-sm font-semibold md:text-lg lg:text-xl xl:text-3xl overflow-x-hidden";
     return (

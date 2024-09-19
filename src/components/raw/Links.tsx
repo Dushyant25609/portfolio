@@ -12,7 +12,7 @@ const motionProps = {
   transition: { duration: 0.2 },
 };
 
-const Links: FC<LinksProps> = (props) => {
+const Links: FC<LinksProps> = () => {
   return (
     <div className="fixed bottom-5 w-full py-4 xl:px-10 z-10 overflow-x-hidden">
       <Dock magnification={60} distance={50} className="md:px-4 flex md:gap-6">

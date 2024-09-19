@@ -5,7 +5,7 @@ import SkillCard from "../raw/SkillCard";
 
 type SkillsProps = {};
 
-const Skills: FC<SkillsProps> = (props) => {
+const Skills: FC<SkillsProps> = () => {
     const [showCard, setShowCard] = useState<boolean>(false);
 
     const handleShowCard = () => {

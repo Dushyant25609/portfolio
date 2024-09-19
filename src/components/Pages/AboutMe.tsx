@@ -3,7 +3,7 @@ import About from "../raw/About";
 
 type AboutMeProps = {};
 
-const AboutMe: FC<AboutMeProps> = (props) => {
+const AboutMe: FC<AboutMeProps> = () => {
     return (
         <div className="flex flex-col h-screen w-9/12 self-center justify-center overflow-x-hidden ">
             <About/>

@@ -4,7 +4,7 @@ import {Link} from 'react-scroll'
 
 type NavbarProps = {};
 
-const Navbar: FC<NavbarProps> = (props) => {
+const Navbar: FC<NavbarProps> = () => {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
     const [isHovered, setIsHovered] = useState<boolean>(false); // State to track if the navbar is hovered
 
