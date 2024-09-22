@@ -16,7 +16,11 @@ const Skills: FC<SkillsProps> = () => {
         <div 
         
         className="px-10 flex flex-col h-screen w-full self-center justify-center overflow-x-hidden ">
-            <div className="h-2/3 flex flex-col relative">
+            <div className="hidden  md:grid grid-cols-2 items-center">
+                <SkillCloud />
+                <SkillCard />
+            </div>
+            <div className="h-2/3 flex flex-col relative md:hidden">
             {(
                 <motion.div 
                 className="h-full flex flex-col justify-center">
@@ -41,7 +45,7 @@ const Skills: FC<SkillsProps> = () => {
                     className="bg-web-blur relative z-20 text-sm lg:text-base  drop-shadow-hover px-6 py-3 self-center text-white rounded-full "
                     onClick={handleShowCard}
                 >
-                    {showCard ? "Cloud" : "Card"}
+                    {showCard ? "Hide" : "Details"}
                 </motion.button>
             </div>
         </div>
