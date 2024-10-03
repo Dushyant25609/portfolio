@@ -1,5 +1,5 @@
 import React from 'react';
-import { withFormik, FormikProps, FormikErrors, FormikConfig } from 'formik';
+import { withFormik, FormikProps } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
 

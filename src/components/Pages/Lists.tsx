@@ -12,7 +12,7 @@ const exp = [
     }
 ]
 
-const Lists: FC<ListsProps> = (props) => {
+const Lists: FC<ListsProps> = () => {
     return (
         <div className="text-white flex flex-col w-11/12 md:w-2/3 self-center bg-web-blur rounded-xl drop-shadow-purple py-12" >
             {exp && exp.map( e => {
