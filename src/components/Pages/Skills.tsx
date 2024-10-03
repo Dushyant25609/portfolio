@@ -16,7 +16,7 @@ const Skills: FC<SkillsProps> = () => {
         <div 
         
         className="px-10 flex flex-col h-screen w-full self-center justify-center overflow-x-hidden ">
-            <div className="hidden  md:grid grid-cols-2 items-center">
+            <div className="hidden  md:grid grid-cols-2 items-center justify-items-center">
                 <SkillCloud />
                 <SkillCard />
             </div>

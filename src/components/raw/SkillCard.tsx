@@ -3,10 +3,10 @@ import { FC } from "react";
 type SkillCardProps = {};
 
 const SkillCard: FC<SkillCardProps> = () => {
-    const para = "text-blue-100 text-xs md:text-sm lg:text-base xl:text-2xl overflow-hidden";
+    const para = "text-blue-100 text-xs  lg:text-base xl:text-2xl overflow-hidden";
     const heading = "text-sm font-semibold md:text-lg lg:text-xl xl:text-3xl overflow-hidden";
     return (
-        <div className="bg-web-blur h-5/6 px-6 py-8 flex flex-col justify-around text-white drop-shadow-purple rounded-xl " >
+        <div className="bg-web-blur px-6 py-8 flex flex-col justify-around text-white drop-shadow-purple rounded-xl w-5/6 " >
             <h1 className={heading} >Languages:</h1>
             <p className={para} >C++, Python, SQL, JavaScript, HTML5, CSS, TypeScript</p>
             <br />

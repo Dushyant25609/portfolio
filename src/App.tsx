@@ -4,6 +4,8 @@ import Links from "./components/raw/Links"
 import { Element } from 'react-scroll';
 import Navbar from "./components/raw/Navbar";
 import Project from "./components/raw/Project";
+import Lists from "./components/Pages/Lists";
+import ImprovedContactForm from "./components/Pages/Contact";
 
 
 
@@ -22,6 +24,12 @@ function App() {
       </Element>
       <Element className="w-full h-screen flex flex-col justify-center " name="Projects">
         <Project />
+      </Element>
+      <Element className="w-full h-screen flex flex-col justify-center " name="Experience">
+        <Lists />
+      </Element>
+      <Element className="w-full h-screen flex flex-col justify-center " name="Contact">
+        <ImprovedContactForm />
       </Element>
     </div>
   )
