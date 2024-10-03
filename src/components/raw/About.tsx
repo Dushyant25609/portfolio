@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FC } from "react";
-import img from '/dushyant.png'
+import img from '/dushyant.webp'
 
 type AboutProps = {};
 
