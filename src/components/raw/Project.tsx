@@ -89,12 +89,12 @@ const reviews = [
         <div className="relative flex w-full flex-col items-center justify-center overflow-x-hidden">
             <Marquee pauseOnHover className="w-full [--duration:10s] overflow-hidden">
                 {firstRow.map((review) => (
-                    <ReviewCard key={review.deployed} {...review} />
+                    <ReviewCard key={review.name} {...review} />
                 ))}
             </Marquee>
             <Marquee reverse pauseOnHover className="w-full [--duration:20s] overflow-hidden">
                 {secondRow.map((review) => (
-                    <ReviewCard key={review.deployed} {...review} />
+                    <ReviewCard key={review.name} {...review} />
                 ))}
             </Marquee>
             <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-web-blur dark:from-background"></div>

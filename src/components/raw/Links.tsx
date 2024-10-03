@@ -15,7 +15,7 @@ const motionProps = {
 const Links: FC<LinksProps> = () => {
   return (
     <div className="fixed bottom-5 w-full py-4 xl:px-10 z-10 overflow-x-hidden">
-      <Dock magnification={60} distance={50} className="md:px-4 flex md:gap-6">
+      <Dock magnification={60} distance={50} className="md:px-4 flex md:gap-6 bg-web-background/80">
         <DockIcon>
           <motion.div {...motionProps}>
             <a href="https://www.linkedin.com/in/dushyant-developer/" target="_blank" ><FaLinkedinIn className="text-white text-xs xl:text-lg " /></a>
